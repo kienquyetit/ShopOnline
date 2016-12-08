@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:src="@drawable/default_avatar"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="1dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#777777"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/iv_nguoi_dung_binh_luan"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="9dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Tên người dùng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="3dp"
+            android:id="@+id/tv_ten_nguoi_dung_binh_luan" />
+
+        <TextView
+            android:text="Nội dung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/tv_noi_dung_binh_luan" />
+
+        <TextView
+            android:text="15-10-2016 17:45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:id="@+id/tv_ngay_binh_luan" />
+    </LinearLayout>
+</LinearLayout>

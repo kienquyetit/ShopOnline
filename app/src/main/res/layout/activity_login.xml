@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quyet.shoponline.activities.LoginActivity">
+
+    <TextView
+        android:text="Mật khẩu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="29dp"
+        android:id="@+id/editTaiKhoan" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/editTaiKhoan"
+        android:layout_alignEnd="@+id/editTaiKhoan"
+        android:layout_marginTop="18dp"
+        android:id="@+id/editMatKhau" />
+
+    <Button
+        android:text="Đăng nhập"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:id="@+id/btnDangNhap"
+        android:layout_below="@+id/tv_quen_mat_khau"
+        android:layout_alignStart="@+id/tv_quen_mat_khau" />
+
+    <TextView
+        android:text="Đăng ký tài khoản"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_dang_ky_tai_khoan"
+        android:textStyle="bold"
+        android:textColor="@color/orange"
+        android:layout_above="@+id/btnDangNhap"
+        android:layout_alignStart="@+id/button5" />
+
+    <TextView
+        android:text="Đăng nhập"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Thoát"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:onClick="onClickThoat"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_alignBaseline="@+id/btnDangNhap"
+        android:layout_alignBottom="@+id/btnDangNhap"
+        android:layout_alignEnd="@+id/editMatKhau" />
+
+    <TextView
+        android:text="Tài khoản"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/textView3"
+        android:layout_alignBaseline="@+id/editTaiKhoan"
+        android:layout_alignBottom="@+id/editTaiKhoan"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Quên mật khẩu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textColor="@color/colorLightBlue"
+        android:id="@+id/tv_quen_mat_khau"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/editMatKhau"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/tv_notify" />
+
+</RelativeLayout>

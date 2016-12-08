@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/online_shop_logo"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên người dùng"
+        android:textSize="10dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:paddingBottom="4dp"
+        android:id="@+id/username"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/email"
+        android:layout_toStartOf="@+id/ivAvarta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shopoline@skymarket.com"
+        android:id="@+id/email"
+        android:gravity="left"
+        android:layout_marginBottom="20dp"
+        android:textSize="10dp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/username" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/default_avatar"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#777777"
+        android:layout_marginLeft="24dp"
+        android:id="@+id/ivAvarta"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="9dp" />
+
+</RelativeLayout>
+

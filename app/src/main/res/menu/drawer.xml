@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_TrangChu"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/nav_QuanAo"
+        android:icon="@drawable/clothes"
+        android:title="Quần áo" />
+    <item
+        android:id="@+id/nav_Giay"
+        android:icon="@drawable/shoes"
+        android:title="Giầy" />
+    <item
+        android:id="@+id/nav_DoTheThao"
+        android:icon="@drawable/sports"
+        android:title="Đồ thể thao" />
+    <item
+        android:id="@+id/nav_TuVaPhuKien"
+        android:icon="@drawable/bagsandaccessory"
+        android:title="Túi và phụ kiện" />
+
+
+    <item android:title="Mở rộng">
+        <menu>
+            <item
+                android:id="@+id/nav_TaiKhoan"
+                android:icon="@mipmap/ic_account_circle_black_24dp"
+                android:title="Tài Khoản" />
+            <item
+                android:id="@+id/nav_CaiDat"
+                android:icon="@mipmap/ic_settings_black_24dp"
+                android:title="Cài đặt" />
+        </menu>
+    </item>
+
+</menu>

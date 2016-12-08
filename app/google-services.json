@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "733206178128",
+    "firebase_url": "https://shoponline-6b72b.firebaseio.com",
+    "project_id": "shoponline-6b72b",
+    "storage_bucket": "shoponline-6b72b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733206178128:android:696f57634c766537",
+        "android_client_info": {
+          "package_name": "com.example.quyet.shoponline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733206178128-ahiged5eir3nb12elgcd5j3lcgjdd6hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnb1MY39v2rZ8obJJ-Pc0uAx10ESHG9oU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

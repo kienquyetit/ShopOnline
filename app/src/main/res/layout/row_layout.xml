@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="195dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingLeft="12dp"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/star_orange"
+        android:layout_alignBottom="@+id/iv_thich"
+        android:id="@+id/iv_danh_gia_1"
+        android:layout_toEndOf="@+id/tv_gia_sp" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/star_orange"
+        android:layout_alignBottom="@+id/iv_danh_gia_1"
+        android:layout_toEndOf="@+id/iv_danh_gia_1"
+        android:id="@+id/iv_danh_gia_2" />
+
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        app:srcCompat="@drawable/star_orange"
+        android:layout_alignBottom="@+id/iv_danh_gia_2"
+        android:layout_toEndOf="@+id/iv_danh_gia_2"
+        android:id="@+id/iv_danh_gia_3" />
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        app:srcCompat="@drawable/star_white"
+        android:id="@+id/iv_danh_gia_5"
+        android:layout_alignTop="@+id/iv_danh_gia_4"
+        android:layout_toEndOf="@+id/iv_danh_gia_4" />
+
+    <ImageView
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        app:srcCompat="@drawable/star_half"
+        android:id="@+id/iv_danh_gia_4"
+        android:layout_alignTop="@+id/iv_danh_gia_3"
+        android:layout_toEndOf="@+id/iv_danh_gia_3" />
+
+    <TextView
+        android:text="122"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_so_luot_thich"
+        android:textSize="8dp"
+        android:layout_alignBottom="@+id/iv_thich"
+        android:layout_toEndOf="@+id/iv_thich" />
+
+    <TextView
+        android:text="(3)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_so_luot_danh_gia"
+        android:textSize="8dp"
+        android:layout_alignBottom="@+id/iv_danh_gia_3"
+        android:layout_toEndOf="@+id/iv_danh_gia_5" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/vay_dai_4"
+        android:id="@+id/iv_sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Đầm cực xinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:textColor="@color/black"
+        android:id="@+id/tv_ten_sp"
+        android:layout_marginStart="13dp"
+        android:layout_below="@+id/iv_sp"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        app:srcCompat="@drawable/like_white"
+        android:id="@+id/iv_thich"
+        android:layout_below="@+id/tv_gia_sp"
+        android:layout_alignStart="@+id/tv_gia_sp" />
+
+    <TextView
+        android:text="đ 50.000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_gia_sp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:layout_below="@+id/tv_ten_sp"
+        android:layout_alignStart="@+id/tv_ten_sp" />
+</RelativeLayout>
